@@ -13,15 +13,7 @@
     <a-assets>
       <a-asset-item id="cake" src="./assets/scene.gltf"></a-asset-item>
     </a-assets>
-<!--     <a-marker-camera preset="hiro">
-      <a-entity rotation="-90 0 0">
-      <a-entity position="0 -7 -15" particle-system="preset:default;accelerationValue:0,-10,0;color:#f9e154;particleCount:1000;direction:-1;rotationAxis:z;rotation:-90 0 0"></a-entity>
-      </a-entity>
-      <a-entity rotation="-80 0 0" position="-2 0 -0.5"  text-geometry="value: Happy Birthday"></a-entity>
-      <a-entity rotation="-80 0 0" position="-1 0 0"  text-geometry="value: ShitShit"></a-entity>
-      <a-entity rotation="-80 0 0" scale="0.1 0.1 0.1" gltf-model="#cake"></a-entity>
-    </a-marker-camera> -->
-    <a-marker-camera type="pattern" patternUrl="./assets/pattern-marker.patt">
+    <a-marker-camera type="pattern" preset="custom" url="./assets/pattern-marker.patt">
       <a-entity rotation="-90 0 0">
       <a-entity position="0 -7 -15" particle-system="preset:default;accelerationValue:0,-10,0;color:#f9e154;particleCount:1000;direction:-1;rotationAxis:z;rotation:-90 0 0"></a-entity>
       </a-entity>
